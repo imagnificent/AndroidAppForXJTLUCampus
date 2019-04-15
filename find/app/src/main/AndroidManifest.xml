@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tonyyoung.find">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".CB_General"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SA_General"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SB_General"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SC_General"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SD_General"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CB_3F"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CB_4F"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CB_5F"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CB_6F"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CB_7F"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CB_8F"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CB_9F"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CB_10F"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CB314"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CB316"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CB318"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CB429"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CB445"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CB545"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CB547"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".searchBook"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".campusMap"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CB714"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CB814"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CB1014"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SA_1F"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SA_2F"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SA_3F"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SA_4F"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SA_5F"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SB_1F"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SB_2F"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SB_3F"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SB_4F"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SB_5F"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SC_1F"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SC_2F"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SC_3F"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SC_4F"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SC_5F"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SD_1F"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SD_2F"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SD_3F"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SD_4F"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SD_5F"
+            android:screenOrientation="portrait" />
+        <activity android:name=".infor" />
+        <activity android:name=".room_booking" />
+        <activity android:name=".cb_3f_msgWall" />
+        <activity android:name=".cb_4f_msgWall" />
+        <activity android:name=".cb_5f_msgWall" />
+        <activity android:name=".cb_6f_msgWall" />
+        <activity android:name=".cb_7f_msgWall" />
+        <activity android:name=".cb_8f_msgWall" />
+        <activity android:name=".cb_9f_msgWall" />
+        <activity android:name=".cb_10f_msgWall" />
+        <activity android:name=".sa_msgWall" />
+        <activity android:name=".sb_msgWall" />
+        <activity android:name=".sc_msgWall" />
+        <activity android:name=".sd_msgWall" />
+        <activity android:name=".Login" />
+        <activity android:name=".Register" />
+        <activity android:name=".User" />
+    </application>
+
+</manifest>
